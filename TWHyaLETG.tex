@@ -150,27 +150,37 @@ low-mass star
 %%
 %% ENTER TEXT AND FIGURES BELOW
 %%
-Accretion onto low-mass stars can be probed with specific X-ray signatures observable with Chandra. Recent observations of the classical T Tauri star (CTTS) TW Hya indicate that these X-ray signatures show variability hinting at their accretion origin. We aim to reveal new accretion physics by observing TW Hya with Chandra/LETGS simultaneously with already planned HST UV observations in the ULYSSES program, director's
-discretionary time program for HST investing about 1000 HST
-orbits to observe the UV emission in young stars. ULYSSES
-includes dedicated monitoring observations of TW~Hya, one of the closest
-CTTS. The UV and X-ray regimes include tracers of the accretion
-process, but it is still unclear how they are related, in particular
-since few simultaneous X-ray/UV observations exist. Existing HETGS
-data of TW Hya show variability in emission lines from the accretion
-shock on the star. However, the densities in Ne~{\sc ix} and O~{\sc vii} indicate
-that today's shock models are incomplete. A hot wind is the most
-promising candidate for this missing component. The HST observations
-will characterize the wind and we request five visits of 30 ks Chandra
-time with LETGS/HRC-S simultaneous to HST to determine the state of
-accretion. The high effective area of LETGS/HRC-S gives $> 100$ counts
-(TODO: check numbers) in the O~{\sc vii} and Ne~{\sc ix} triplets, which are crucial for measuring the density and temperature.
+Accretion onto low-mass stars can be probed with specific X-ray
+signatures observable with Chandra. Observations of the
+classical T Tauri star (CTTS) TW Hya indicate that these X-ray
+signatures show variability hinting at their accretion origin. We aim
+to reveal new accretion physics by observing TW Hya with Chandra/LETGS
+simultaneously with already planned HST UV observations in the ULYSSES
+program.
+%, director's discretionary time program for HST investing about
+%1000 HST orbits to observe the UV emission in young stars. ULYSSES
+%includes dedicated monitoring observations of TW~Hya, one of the
+%closest CTTS. 
+The UV and X-ray regimes include tracers of the
+accretion process, but it is still unclear how they are related, in
+particular since few simultaneous X-ray/UV observations
+exist. Existing Chandra grating spectra of TW Hya show variability in emission
+lines from the accretion shock on the star. However, the densities in
+Ne~{\sc ix} and O~{\sc vii} indicate that today's shock models are
+incomplete. A hot wind is the most promising candidate for this
+missing component. The HST observations will characterize the wind and
+we request five visits of 30 ks Chandra time with LETGS/HRC-S
+simultaneous to HST to determine the state of accretion. The high
+effective area of LETGS/HRC-S gives $> 100$ counts (TODO: check
+numbers) in the O~{\sc vii} and Ne~{\sc ix} triplets, which are
+crucial for measuring the density and temperature.
 
 
 \section{Science justification}
 Young stars are surrounded by proto-planetary disks, the birthplaces of exo-planets, for the first few Myrs of their existence. Low-mass stars, called classical T~Tauri stars (CTTS) in this phase, accrete mass from the inner rim of the disk. This accretion process produces emission from the NIR to X-rays.
 
-The UV component of this excess emission will be studied by ULLYSES \footnote{\url{http://www.stsci.edu/stsci-research/research-topics-and-programs/ullyses} ~}
+The UV component of this excess emission will be studied by ULLYSES 
+\footnote{\url{http://www.stsci.edu/stsci-research/ research-topics-and-programs/ullyses}}
 (Ultraviolet Legacy Library of Young Stars as Essential Standards) which is an HST DDT legacy program of  approximately 1,000 orbits with observations from 2020 to 2023. ULLYSES has several components, including 100 orbits dedicated to spectroscopic monitoring of four nearby low-mass stars  starting in the fall of 2020.
 
 We propose Chandra/LETGS observations of TW Hya, the brightest of the four  CTTS that will be monitored by HST/ULLYSES for UV variability.
@@ -195,15 +205,32 @@ the accretion rate are based on the excess emission caused by the accretion shoc
 Accretion shock models for CTTS predict post-shock plasma
 temperatures of 2-3~MK as a result of free-fall velocities of 
 300-500\,km\,s$^{-1}$. Such a shock cools predominately by
-X-ray emission, which is partly reprocessed into UV emission within the regions surrounding the shock (see Fig.~\ref{fig:sketch}). 
+X-ray emission, which is partly reprocessed into UV emission within the regions surrounding the shock (see Fig.~\ref{fig:CIVsketch}, left). 
 
-\begin{figure}[t!]
+\begin{figure*}
 \centering
-\includegraphics[width=0.35\textwidth]{figs/Hartmann_accretion_sketch.png}
-\caption{Structure of the accretion shock on low-mass stars. From Hartman et al.\ (2016).
-  %\protect{\bibentry{Hartmann_2016}}.
-  \label{fig:sketch}}
-\end{figure}
+\resizebox{\hsize}{!}{\includegraphics{figs/sketch3_modified}}
+\caption{\label{fig:CIVsketch} \emph{left:} Structure of the accretion
+  shock in low-mass stars. Indicated are the pre-shock (green) and
+  post-shock (blue) gas, which heats some of the photosphere (yellow
+  and orange where heated). The post-shock gas is responsible for the
+  X-ray emission. The megenta material is an up-spill or outflow,
+  which will be probed by the UV observations.  
+  \emph{right:}
+  Working hypothesis for the observed UV lines profiles.
+  Individual contributions to the line profile (color) and total line
+  profile (black). The yellow line (photosphere) shows the C~{\sc iv} in a
+  young, non-accreting star; the pre-shock gas (green) emits close
+  to the free-fall velocity. Post-shock gas (blue) shows
+  emission between 0 and 125~km/s with a very wide emission line due
+  to the turbulence in the post-shock region. The
+  spilled up gas (magenta) escapes the funnel has turbulence and fast bulk
+  motion, thus it causes a very wide line. It also blocks the view of
+  the accretion column. The heated photosphere (orange)
+  can be described by a black-body
+  continuum.}
+\end{figure*}
+
 
 \underline{\bf X-rays}: The observability of the ``primary'' X-ray photons 
 escaping the post-shock region is still debated 
@@ -221,7 +248,14 @@ pre-shock material, respectively (\bibentry{Ardila_2013}). However, only a few s
 expected ratio between the pre- and post-shock velocities and line
 shifts are generally too low compared to free-fall velocities. 
 
-\underline{\bf UV continuum}: The FUV continuum emission in CTTS is dominated by the hot spot in the photosphere, which is heated up by reprocessing the energy deposited in the accretion shock. In the CTTS TW Hya, one of the ULLYSES targets, HST/COS monitoring shows the FUV continuum to vary by a factor of three on time scales of days (G\"unther et al., in prep.) presumably due to variations in the accretion rate and viewing geometry. There is similar variability in GM~Aur, also one of the ULLYSSES targets (\bibentry{Robinson_2019}).
+\underline{\bf UV continuum}: The FUV continuum emission in CTTS is
+dominated by the hot spot in the photosphere, which is heated up by
+reprocessing the energy deposited in the accretion shock. In the CTTS
+TW Hya, one of the ULLYSES targets, HST/COS monitoring shows the FUV
+continuum to vary by a factor of three on time scales of days
+(Fig.~\ref{fig:UV2}) presumably due to variations in the
+accretion rate and viewing geometry. There is similar variability in
+GM~Aur, also one of the ULLYSSES targets (\bibentry{Robinson_2019}).
 
 %\underline{\bf UV H$_2$ emission}: FUV spectra of CTTS show a large number of ro-vibrational H$_2$ emission lines which are formed in the upper layer of the disk out to a disk radius of several au. They are excited by the Ly$\alpha$ emission from the infalling column and the accretion shock (\bibentry{2004ApJ...607..369H}; \bibentry{2017ApJ...844..169F}). 
 
@@ -284,7 +318,7 @@ lines, a comparison between observed and predicted ratios reveals the
 absorbing column density. \textbf{Using an accretion model,
   \citet{2012ApJ...760L..21B} show that the apparently subtle changes
   in the X-ray grating spectrum require very significant changes
-  (factor of a few) in accretion rate, filling factor, and polar
+  (factor of a few, Fig.~\ref{fig:Brickhouse_3}) in accretion rate, filling factor, and polar
   magnetic field strengths. }
 
 \begin{figure}[h!]
@@ -301,24 +335,21 @@ absorbing column density. \textbf{Using an accretion model,
 \label{fig:allspec} }
 \end{figure}
 
-\begin{figure*}
+
+\begin{figure}[h!]
 \centering
-\resizebox{\hsize}{!}{\includegraphics{figs/sketch3_modified}}
-\caption{\label{fig:CIVsketch} Working hypotheses to explain the
-  observed line profiles. \emph{left:} Schematic drawing \emph{right:}
-  Individual contributions to the line profile (color) and total line
-  profile (black). The individual components are: \emph{Yellow:}
-  Stellar photosphere - the yellow lines shows the C~{\sc iv} in a
-  young, non-accreting star; \emph{green:} Pre-shock gas emits close
-  to the free-fall velocity; \emph{blue:} Post-shock gas shows
-  emission between 0 and 125~km/s with a very wide emission line due
-  to the turbulence in the post-shock region. \emph{magenta:} The
-  spilled up gas escaping the funnel has turbulence and fast bulk
-  motion, thus it causes a very wide line. It also blocks the view of
-  the accretion column. \emph{orange:} The heated photosphere
-  surrounding the accretion spot can be described by a black-body
-  continuum. See text for more details.}
-\end{figure*}
+\resizebox{\hsize}{!}{\includegraphics{figs/Brickhouse12_fig3}}
+\caption{Seemingly small changes in measured line ratios can have big
+  implications for the physical parameters. The plot shows how the
+  area covered in spots (filling factor) and mass accretion rate
+  differ by a factor of a few between the observations marked red,
+  green, and blue in Fig.~\ref{fig:allspec}. Symbols are models from a
+  grid compatible with observed ratios within the errors. X-axis shows
+  inner radius of accretion disk. Modified from:
+  \protect{\citet{2012ApJ...760L..21B}}
+\label{fig:Brickhouse_3} }
+\end{figure}
+
 
 
 \section{Immediate objective}
