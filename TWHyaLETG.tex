@@ -115,6 +115,9 @@ List name, institution and email here if you want to be a Co-I
 \item Frederick M. Walter, Stony Brook University, frederick.walter@stonybrook.edu
 \item David Principe, MIT, principe@mit.edu
 \item Nancy Brickhouse, SAO, nbrickhouse@cfa.harvard.edu
+\item Jochen Eislöffel, Tautenburg, jochen@tls-tautenburg.de
+\item Costanza Argiroffi, University of Palermo, costanza.argiroffi@inaf.it
+\item Mark Reynolds, University of Michigan, markrey@umich.edu
 \end{itemize}
 
 \twocolumn
@@ -156,8 +159,8 @@ signatures observable with Chandra. Observations of the
 classical T Tauri star (CTTS) TW Hya indicate that these X-ray
 signatures show variability hinting at their accretion origin. We aim
 to reveal new accretion physics by observing TW Hya with Chandra/LETGS
-simultaneously with already approved HST UV observations in the ULYSSES
-program.
+simultaneously with already approved HST UV observations from the ULYSSES
+legacy program.
 %, director's discretionary time program for HST investing about
 %1000 HST orbits to observe the UV emission in young stars. ULYSSES
 %includes dedicated monitoring observations of TW~Hya, one of the
@@ -173,31 +176,61 @@ missing component. The HST observations will characterize the wind and
 we request five visits of 30 ks Chandra time with LETG/HRC-S
 simultaneous to HST to determine the state of accretion. The high
 effective area of LETG/HRC-S gives $> 400$ ($>200$) counts in the Ne~{\sc ix} (O~{\sc vii}) triplet in 30~ks, both of which are
-crucial for measuring the density and temperature.
+crucial for measuring the density and temperature of the shocked plasma.
 
+% TODO: Check that simulatenous/contemporaneous and time limits are consistent
 
 \section{Science justification}
 Young stars are surrounded by proto-planetary disks, the birthplaces of exo-planets, for the first few Myrs of their existence. Low-mass stars, called classical T~Tauri stars (CTTS) in this phase, accrete mass from the inner rim of the disk. This accretion process produces emission from the NIR to X-rays.
 
 The UV component of this excess emission will be studied by ULLYSES 
 \footnote{\url{http://www.stsci.edu/stsci-research/ research-topics-and-programs/ullyses}}
-(Ultraviolet Legacy Library of Young Stars as Essential Standards) which is an HST DDT legacy program of  approximately 1,000 orbits with observations from 2020 to 2023. ULLYSES has several components, including 100 orbits dedicated to spectroscopic monitoring of four nearby low-mass stars  starting in the fall of 2020.
+(Ultraviolet Legacy Library of Young Stars as Essential Standards) which is an HST DDT legacy program of  approximately 1,000 orbits with observations from 2020 to 2023. ULLYSES has several components, including 100 orbits dedicated to spectroscopic monitoring of four nearby low-mass stars including the nearest CTTS TW Hya. ULLYSES observations will start in the fall of 2020.
 
 We propose Chandra/LETGS observations of TW Hya, the brightest of the four  CTTS that will be monitored by HST/ULLYSES for UV variability.
 This will allow us to directly identify physically related phenomena through
-their shared variability and to decipher the internal workings of accretion columns.  {\bf Simulatenous X-ray and UV
+their shared variability. {\bf Simultaneous X-ray and UV
 observations provide an unparalleled opportunity to improve
 our understanding of accretion.}
 
 
-Disk models indicate that X-rays can regulate the chemistry in the disk mid-plane where most of the mass is and planets form (e.g.\ \bibentry{Cleeves_2017}). However, these models are uncertain because because the spatial origin and the time behavior of the X-ray flux and spectrum are not well known.
+\begin{figure*}[t]
+\centering
+\resizebox{\hsize}{!}{\includegraphics{figs/sketch3_modified}}
+\caption{\label{fig:CIVsketch} \emph{left:} Structure of the accretion
+  shock in low-mass stars. Indicated are the pre-shock (green) and
+  post-shock (blue) gas, which heats some of the photosphere (yellow
+  and orange where heated). The post-shock gas is responsible for the
+  X-ray emission. The magenta material is an up-spill or outflow,
+  which will be probed by the UV observations.  
+  \emph{right:}
+  Working hypothesis for the observed UV line profiles.
+  Individual contributions to the line profile are in color, combining all those leads to the total observed line profile (black). 
+  % The yellow line (photosphere) shows the C~{\sc iv} in a
+  % young, non-accreting star; 
+  The pre-shock gas (green) emits close
+  to the free-fall velocity. Post-shock gas (blue) emits
+  between 0 and 125~km/s with turbulent broadening. The
+  spilled up gas (magenta) escapes the funnel. Due to turbulence and bulk
+  motion it causes a very wide line. It also blocks the view of
+  the accretion column within $\pm100$~km~s (magenta box).
+  %The yellow spectrum is from an undisturbed photosphere, the orange one from the heated photosphere.
+  %The heated photosphere (orange)
+  %can be described by a black-body
+  %continuum.
+  }
+\end{figure*}
+
+
+
+Disk models indicate that X-rays can regulate the chemistry in the disk mid-plane where most of the mass is and planets form (e.g.\ \bibentry{Cleeves_2017}). However, these models are uncertain because the spatial origin and the time behavior of the X-ray flux and spectrum are not well known.
 %% Actually, X-rays may dominate ionization in disk midplanes. Ionization is needed to activate the magneto-rotational instability (MRI) believed to drive viscous accretion (\bibentry{1996ApJ...457..355G}). A very low ionization fraction may suppress the MRI and create a quiescent ``dead zone'' with important implications in planet formation for processes such as dust settling, planetesimal formation, and low mass 
 %% planet migration (\bibentry{2007ApJ...654L.159C}; \bibentry{2009ApJ...691.1764M}). 
 Therefore
 {\bf understanding the high-energy radiation from CTTS is a crucial ingredient to understand the physics and chemistry of star and planet formation.} 
 
-CTTS generate X-ray and FUV emission from active coronae similar to main-sequence stars and from accretion shocks.
-The X-ray and UV radiation from the CTTS ionizes parts of the disk and thus the accreting matter follows the stellar magnetic field lines, which connect the star and the disk (e.g. \bibentry{1991ApJ...370L..39K}; \bibentry{1994ApJ...429..781S}). The matter accelerates along the magnetic fields line and hits the stellar surface at free fall velocity.
+CTTS generate X-ray and FUV emission from active coronae similar to main-sequence stars, and from accretion shocks.
+The X-ray and UV radiation from the CTTS ionizes parts of the disk and thus the accreting matter follows the stellar magnetic field lines, which connect the star and the disk (e.g. \bibentry{1991ApJ...370L..39K}; \bibentry{1994ApJ...429..781S}). The matter accelerates along the magnetic field line and hits the stellar surface at free fall velocity.
 This accretion shock also heats the surrounding photosphere and veils photospheric lines (\bibentry{Calvet_1998}; \bibentry{2000ApJ...544..927G}). Essentially all methods to derive 
 the accretion rate are based on the excess emission caused by the accretion shock. 
 %Furthermore, Zeeman-Doppler imaging reveals hot spots with strong magnetic fields, which, in the magnetically funneled accretion model, are the footpoints of the accretion funnels (\bibentry{2007MNRAS.380.1297D}; \bibentry{2008MNRAS.386.1234D}).
@@ -206,34 +239,6 @@ Accretion shock models for CTTS predict post-shock plasma
 temperatures of 2-3~MK as a result of free-fall velocities of 
 300-500\,km\,s$^{-1}$. Such a shock cools predominately by
 X-ray emission, which is partly reprocessed into UV emission within the regions surrounding the shock (see Fig.~\ref{fig:CIVsketch}, left). 
-
-\begin{figure*}
-\centering
-\resizebox{\hsize}{!}{\includegraphics{figs/sketch3_modified}}
-\caption{\label{fig:CIVsketch} \emph{left:} Structure of the accretion
-  shock in low-mass stars. Indicated are the pre-shock (green) and
-  post-shock (blue) gas, which heats some of the photosphere (yellow
-  and orange where heated). The post-shock gas is responsible for the
-  X-ray emission. The megenta material is an up-spill or outflow,
-  which will be probed by the UV observations.  
-  \emph{right:}
-  Working hypothesis for the observed UV lines profiles.
-  Individual contributions to the line profile (color) and total line
-  profile (black). 
-  % The yellow line (photosphere) shows the C~{\sc iv} in a
-  % young, non-accreting star; 
-  The pre-shock gas (green) emits close
-  to the free-fall velocity. Post-shock gas (blue) emits
-  between 0 and 125~km/s with turbulent broadening. The
-  spilled up gas (magenta) escapes the funnel. Due to turbulence and bulk
-  motion it causes a very wide line. It also blocks the view of
-  the accretion column. 
-  %The heated photosphere (orange)
-  %can be described by a black-body
-  %continuum.
-  }
-\end{figure*}
-
 
 \underline{\bf X-rays}: The observability of the ``primary'' X-ray photons 
 escaping the post-shock region is still debated 
@@ -245,7 +250,7 @@ predictions from quantitative shock models for the accretion rates derived with 
 
 
 \underline{\bf UV ion lines}:  Deriving  accretion rates from UV line fluxes is based 
-on flux-flux scaling relations, not on quantitative shock models. Where those models make predictions, they sometimes disagree with observations. For instance, it is believed that the  narrow and 
+on flux-flux scaling relations, not on quantitative shock models. Where model predictions are available, they often disagree with observations. For instance, it is believed that the  narrow and 
 broad components of the C~{\sc iv} lines  originate in the post- and 
 pre-shock material, respectively (\bibentry{Ardila_2013}). However, only a few systems show the
 expected ratio between the pre- and post-shock velocities and line
@@ -256,13 +261,12 @@ dominated by the hot spot in the photosphere, which is heated up by
 reprocessing the energy deposited in the accretion shock. In
 TW Hya HST/COS monitoring shows the FUV
 continuum to vary by a factor of three on time scales of days
-(Fig.~\ref{fig:UV2}) presumably due to variations in the
-accretion rate and viewing geometry. There is similar variability in
-GM~Aur, also one of the ULLYSSES targets (\bibentry{Robinson_2019}).
+(Fig.~\ref{fig:UV2}; \bibentry{Robinson_2019}) presumably due to variations in the
+accretion rate and viewing geometry.
 
 %\underline{\bf UV H$_2$ emission}: FUV spectra of CTTS show a large number of ro-vibrational H$_2$ emission lines which are formed in the upper layer of the disk out to a disk radius of several au. They are excited by the Ly$\alpha$ emission from the infalling column and the accretion shock (\bibentry{2004ApJ...607..369H}; \bibentry{2017ApJ...844..169F}). 
 
-{\bf Neither the X-ray nor the UV accretion signatures are fully explained by existing models}. Still, we expect the following X-ray vs.\ UV correlations and time scales if our current picture is roughly correct:
+{\bf Neither the X-ray nor the UV accretion signatures are consistently explained by existing models}. Still, we expect the following X-ray vs.\ UV correlations and time scales if our current picture is roughly correct:
 \begin{enumerate}
     \itemsep1pt
     \item Soft X-ray flux from the shock and UV ion lines from the shock should be correlated on the shock-crossing time scale (minutes).
@@ -290,7 +294,7 @@ today), within one hour of HST/COS data.
 We tried again in March of 2019 with HETG/HRC-I. This 70~ks exposure was split into two
 observations, two days apart. The second one was supposed to be taken simultaneous to HST data,
 but a Chandra command error caused that exposure to fail. It was
-re-scheduled about three month later. Incidentally, the HST observations
+re-scheduled about three months later. Incidentally, the HST observations
 suffered from an acquisition error and were also re-scheduled, but despite the
 best efforts of the Chandra and HST scheduling teams, the time difference
 between the HST and Chandra data is two days - longer than the time scale of the
@@ -314,11 +318,11 @@ emission lines in between.}
 
 
 We know that both X-ray and UV properties change over time, the UV in
-quite dramatic fashion (Fig.~\ref{fig:UV2}), the X-rays more
+quite dramatically (Fig.~\ref{fig:UV2}), the X-rays more
 subtle. In Fig.~\ref{fig:allspec} we show a powerful diagnostic
 (\bibentry{2012ApJ...760L..21B}) that is enabled by the Chandra
 gratings. We determine the temperature of the Ne~{\sc
-  ix} emitting gas from the temperature sensitive G-ratio in the He-like triplet around 13.5~\AA{} ($(f+i)/r$ line ratio) and
+  ix} emitting plasma from the temperature-sensitive G-ratio in the He-like triplet around 13.5~\AA{} ($(f+i)/r$ line ratio) and
 compare that to the ratio He$\alpha$/He$\beta$ of the same ion
 (y-axis). Since the He$\alpha$ and He$\beta$ lines are separated more
 in the spectrum than the triplet lines, a comparison between observed
@@ -334,16 +338,25 @@ density. \textbf{Using an accretion model, \citet{2012ApJ...760L..21B}
 \resizebox{\hsize}{!}{\includegraphics{figs/Ne-var}}
 \caption{Ratio of the flux of the resonance line (He$\alpha$, also
   called ``r'') to that of He$\beta$ compared to the observed
-  $(f+i)/r$ ratio for Ne~{\sc ix}. Both ratios are temperature
+  $(f+i)/r$ ratio for Ne~{\sc ix} in archival TW~Hya observations. Both ratios are temperature
   sensitive (top axes gives temperature derived from $(f+i)/R$
   ratio). Without absorption, datapoints points would lie on the
   dotted line.  Many of the observations require significant
-  absorption of the Ne~{\sc ix} emission. Chandra ObsIDs are labelled.
+  absorption of the Ne~{\sc ix} emission. Chandra ObsIDs are labelled. We assume a collisionally excited, optically thin plasma with a single temperature emission component.
 \label{fig:allspec} }
 \end{figure}
 
 
-\begin{figure}[h!]
+
+
+\section{Immediate objective}
+We can see in Fig.~\ref{fig:UV2} that UV continuum and line emission varies dramatically, there might even be two distinct states (Fig.~\ref{fig:CIVsketch}). We want to link the UV state to an X-ray state to get a complete picture of accretion. In X-rays we always observe $f/i$ ratios lower than those of typical coronal densities. Low $f/i$ ratios come from high-density plasma, i.e.\ an accretion shock. Yet, in the UV, the continuum and the hot ion line emission varies widely. Why is that? Can we link the visibility of the UV continuum and the C~{\sc iv} line to $N_H$ variations in the X-rays, i.e.\ is some of the shock buried? Or is this a change in the structure of the shock, i.e.\ do we see changes in the UV line profiles because the infall speed changes? In that case, UV variability would correlate with X-ray temperature changes.
+To distinguish between these possibilities, \textbf{we need X-ray grating spectroscopy contemporaneous to already approved HST DD observations of TW Hya.}
+
+
+
+
+\begin{figure}[t!]
 \centering
 \resizebox{\hsize}{!}{\includegraphics{figs/Brickhouse12_fig3}}
 \caption{Seemingly small changes in measured line ratios can have big
@@ -358,30 +371,20 @@ density. \textbf{Using an accretion model, \citet{2012ApJ...760L..21B}
 \end{figure}
 
 
-
-\section{Immediate objective}
-We can see in Fig.~\ref{fig:UV2} that UV continuum and line emission varies dramatically, there might even be two distinct states (Fig.~\ref{fig:CIVsketch}). We want to link the UV state to an X-ray state to get a complete picture of accretion. In X-rays we always observe f/i ratios lower than those of typical coronal densities which are thus presumed to come from an accretion shock. Yet, in the UV, the continuum and the hot ion line emission varies widely. Why is that? Can we link the visibility of the UV continuum and the C~{\sc iv} line to $N_H$ variations in the X-rays, i.e.\ is some of the shock buried? Or is this a change in the structure of the shock, i.e.\ do we see changes in the UV line profiles because the infall speed changes? In that case, UV variability would correlate with X-ray temperature changes.
-To distinguish between these possibilities, \textbf{we need X-ray grating spectroscopy contemporaneous to already approved HST DD observations of TW Hya.}
-
-
-
-
-
-
 \section{Feasibility}
 %The effective area at the location of the Ne~{\sc ix} triplet for HETG/ACIS-S in 2007 (when the data used in
 %\citet{2012ApJ...760L..21B} was taken) is about 20\% larger than LETG/HRC-S
 %today. (HETG/ACIS-S effective area is reduced by about a factor of 5 today
 %compared to 2007 because of the ACIS contamination.)
-We need X-ray grating observations within 6~h of the UV data (see UV
-variability in Fig.~\ref{fig:UV2}). The ULLYSES UV observations will
+The ULLYSES UV observations will
 be distributed as follows (private communication with the ULLYSES team
 at STScI): Four observations per rotation period for three consecutive
 periods. For TW~Hya that means that HST observations will be separated
 by about one day for twelve days. This covers about five Chandra
 orbits. Given current thermal constraints, Chandra can observe TW~Hya
 typically once per orbit and the thermal time scale for Chandra is
-about 30~ks. Thus, we request five observations of 30~ks each. The
+about 30~ks. Thus, we request five observations of 30~ks each within 6~h of the UV data (see UV
+variability in Fig.~\ref{fig:UV2}). The
 high effective area of LETGS/HRC-S gives $> 400$ ($>200$) counts in
 the Ne~{\sc ix} (O~{\sc vii}) triplet, both of which are crucial for
 measuring the density and temperature.  In Fig.~\ref{fig:allspec} the
